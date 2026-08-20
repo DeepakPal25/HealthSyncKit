@@ -1,0 +1,9 @@
+version: 1
+builder:
+  configs:
+    - documentation_targets: [HealthSyncKit]
+      platform: ios
+    - documentation_targets: [HealthSyncKit]
+      platform: watchos
+    - documentation_targets: [HealthSyncKit]
+      platform: macos
