@@ -18,13 +18,13 @@ let package = Package(
     targets: [
         .target(
             name: "HealthSyncKit",
-            path: "HealthSyncKit/HealthSyncKit",
+            path: "HealthSyncKit",
             exclude: ["HealthSyncKit.docc"]
         ),
         .testTarget(
             name: "HealthSyncKitTests",
             dependencies: ["HealthSyncKit"],
-            path: "HealthSyncKit/HealthSyncKitTests"
+            path: "HealthSyncKitTests"
         )
     ]
 )
